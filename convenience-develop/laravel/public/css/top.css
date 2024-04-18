@@ -1,0 +1,71 @@
+
+body {
+    background-color: skyblue;
+    background-size: contain;
+    font-size: 200%;
+  }
+  
+.rgb-css {
+    color: rgb(0, 89, 255);
+    font-size: 5.5rem;
+    position:center;
+    top: 0%;
+    left: 22%;
+
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 1px #96c2fe;
+    padding: 0.02em 0.001em;
+    
+}
+.green-css {
+    color: black;
+    font-size: 3.5rem;
+    border-bottom: solid 3px rgb(255, 255, 255);
+    position: relative; 
+}
+
+
+.btn-gradient-3d {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 3rem;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.47);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px #5e7fca;
+  }
+    div {
+        position: relative;
+    }
+  
+  .btn-gradient-3d:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+  }
+
+  .fixed_btn
+  {
+    position: 10px;
+    bottom: 10px 40;
+    padding: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  .box select{
+    width: 100px;
+    height: 30px;
+    font-size: 28px;
+    position: relative;
+    }
+
+  .en_font {
+    font-size: 1px;
+  }
